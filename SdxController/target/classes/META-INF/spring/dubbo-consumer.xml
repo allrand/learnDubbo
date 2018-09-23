@@ -29,13 +29,15 @@
     <!-- use multicast registry center to discover service -->
     <!--<dubbo:registry address="multicast://224.5.6.7:1234"/>-->
     <!--<dubbo:registry address="zookeeper://192.168.1.213:2181"/>-->
-    <dubbo:registry address="zookeeper://192.168.1.160:2181"/>
+    <!--<dubbo:registry address="zookeeper://192.168.1.160:2181"/>-->
     <!--<dubbo:registry address="zookeeper://192.168.1.160:2181?backup=192.168.1.163:2181,192.168.1.165:2181"/>-->
+    <dubbo:registry address="zookeeper://localhost:2181"/>
 
     <!-- generate proxy for the remote service, then demoService can be used in the same way as the
     local regular interface -->
     <!--<dubbo:reference id="demoService" check="false" interface="org.apache.dubbo.demo.DemoService"/>-->
     <dubbo:consumer client="netty4">
         <dubbo:reference id="userService" check="false" interface="com.auvgo.api.UserService"/>
+        <dubbo:reference id="demoService" check="false" interface="com.auvgo.api.DemoService"/>
     </dubbo:consumer>
 </beans>

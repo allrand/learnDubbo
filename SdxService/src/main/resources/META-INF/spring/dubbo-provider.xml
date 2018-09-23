@@ -29,7 +29,8 @@
     <!--<dubbo:registry address="multicast://224.5.6.7:1234"/>-->
     <!--<dubbo:registry address="zookeeper://192.168.1.213:2181"/>-->
     <!--<dubbo:registry address="zookeeper://192.168.1.160:2181?backup=192.168.1.163:2181,192.168.1.165:2181"/>-->
-    <dubbo:registry address="zookeeper://192.168.1.160:2181"/>
+    <!--<dubbo:registry address="zookeeper://192.168.1.160:2181"/>-->
+    <dubbo:registry address="zookeeper://localhost:2181"/>
 
     <!-- use dubbo protocol to export service on port 20880 -->
     <dubbo:protocol name="dubbo" port="20880" server="netty4"/>
@@ -41,4 +42,7 @@
     <!-- declare the service interface to be exported -->
     <dubbo:service interface="com.auvgo.api.UserService" ref="userService"/>
 
+    <bean id="demoService" class="com.auvgo.provider.Service.Impl.DemoServiceImpl"/>
+
+    <dubbo:service interface="com.auvgo.api.DemoService" ref="demoService"/>
 </beans>

@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.InputStream;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
@@ -37,6 +38,34 @@ public class UserDaoTest {
 
     }
 
+    @Test
+    public void addUser(){
+        User user = new User();
+        user.setUsername("xx");
+        user.setAddress("BJ ..");
+        user.setBirthday(new Date());
+        user.setSex("1");
+        userMapper.insertUser(user);
+    }
+
+    @Test
+    public void updateUser(){
+        User user = new User();
+        user.setId(50);
+        user.setUsername("A10 xx");
+        user.setAddress("BJ CP");
+        user.setBirthday(new Date());
+        user.setSex("1");
+
+        userMapper.updateUser(user);
+    }
+
+    @Test
+    public void deleteUser(){
+        User user = new User();
+        user.setId(50);
+        userMapper.deleteUser(user);
+    }
 //    public static void main(String[] args) {
 //        testMybatis();
 //    }

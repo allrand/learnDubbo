@@ -23,39 +23,27 @@ public class UserServiceImpl implements UserService {
         if (userMapper == null){
             logger.error("UserMapper obj: {}", userMapper);
             throw new IllegalAccessError("internal error!!!");
-//            return null;
         }
         return userMapper.selectUsers();
     }
 
-
-    private Map<String, Object> kvmap = new HashMap<String, Object>();
-
-    public Object getValue(String key) {
-        logger.info("key: {}", key);
-        if (key == null || key.equals(""))
-            throw new IllegalArgumentException("key is null!");
-
-        return kvmap.get(key);
-
+    @Override
+    public int addUser(User user) {
+        userMapper.insertUser(user);
+        return 0;
     }
 
-    public void setValue(String key, Object value) {
-        logger.info("key: {} value: {}", key, value);
-        if (key == null || key.equals(""))
-            throw new IllegalArgumentException("key is null!");
-        if (value == null)
-            throw new IllegalArgumentException("value is null!");
-
-        kvmap.put(key, value);
+    @Override
+    public int delUser(User user) {
+        userMapper.deleteUser(user);
+        return 0;
     }
 
-    public void delValue(String key) {
-
+    @Override
+    public int updateUser(User user) {
+        userMapper.updateUser(user);
+        return 0;
     }
 
-    public void updateValue(String key, Object value) {
-
-    }
 
 }

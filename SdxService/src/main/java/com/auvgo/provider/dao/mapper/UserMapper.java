@@ -10,4 +10,7 @@ import java.util.List;
 public interface UserMapper {
 
     List<User> selectUsers();
+    void insertUser(User user);
+    void updateUser(User user);
+    void deleteUser(User user);
 }
