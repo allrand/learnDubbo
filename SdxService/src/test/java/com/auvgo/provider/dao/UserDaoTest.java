@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import com.auvgo.entity.User;
 import com.auvgo.provider.dao.mapper.UserMapper;
+import org.junit.Ignore;
 import org.junit.runner.RunWith;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -28,6 +29,7 @@ public class UserDaoTest {
     @Autowired
     private UserMapper userMapper;
 
+    @Ignore
     @Test
     public void getAllUsers() {
         List<User> users = null;//userDao.getAllUsers();
@@ -37,7 +39,7 @@ public class UserDaoTest {
         users.forEach(user -> logger.info(user.getId() + "," + user.getUsername() + "," + user.getAddress()));
 
     }
-
+    @Ignore
     @Test
     public void addUser(){
         User user = new User();
@@ -47,7 +49,7 @@ public class UserDaoTest {
         user.setSex("1");
         userMapper.insertUser(user);
     }
-
+    @Ignore
     @Test
     public void updateUser(){
         User user = new User();
@@ -59,7 +61,7 @@ public class UserDaoTest {
 
         userMapper.updateUser(user);
     }
-
+    @Ignore
     @Test
     public void deleteUser(){
         User user = new User();

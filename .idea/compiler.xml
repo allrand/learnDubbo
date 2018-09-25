@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SdxController" />
+        <module name="ConsumerApp" />
         <module name="SdxInterface" />
         <module name="SdxService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SdxController" target="8" />
       <module name="SvcController" target="1.7" />
     </bytecodeTargetLevel>
   </component>

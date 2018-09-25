@@ -1,7 +1,6 @@
 package com.auvgo.api;
 
 import com.auvgo.entity.User;
-
 import java.util.List;
 
 public interface UserService {
