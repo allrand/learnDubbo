@@ -29,10 +29,16 @@ public class UserDaoTest {
     @Autowired
     private UserMapper userMapper;
 
+    @Test
+    public void getUser() {
+        User user1 = userMapper.selectUser(1);
+        System.out.println(user1.toString());
+    }
+
     @Ignore
     @Test
     public void getAllUsers() {
-        List<User> users = null;//userDao.getAllUsers();
+        List<User> users = null;
         users = userMapper.selectUsers();
 
         logger.info(users.toArray().toString());
@@ -45,7 +51,7 @@ public class UserDaoTest {
         User user = new User();
         user.setUsername("xx");
         user.setAddress("BJ ..");
-        user.setBirthday(new Date());
+//        user.setBirthday("");
         user.setSex("1");
         userMapper.insertUser(user);
     }
@@ -56,7 +62,7 @@ public class UserDaoTest {
         user.setId(50);
         user.setUsername("A10 xx");
         user.setAddress("BJ CP");
-        user.setBirthday(new Date());
+//        user.setBirthday("");
         user.setSex("1");
 
         userMapper.updateUser(user);

@@ -28,6 +28,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User getUser(Integer id) {
+        logger.info("getUser obj: {}", id.toString());
+        if (id == null || id == 0){
+            throw new IllegalAccessError("param user is null.");
+        }
+        return userMapper.selectUser(id);
+    }
+
+    @Override
     public int addUser(User user) {
         userMapper.insertUser(user);
         return 0;

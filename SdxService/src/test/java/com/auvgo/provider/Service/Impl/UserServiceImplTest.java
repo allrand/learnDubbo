@@ -24,7 +24,17 @@ public class UserServiceImplTest {
     @Test
     public void getUsers() {
         List<User> users = userService.getUsers();
-        logger.info(users.toArray().toString());
+//        logger.info(users.toArray().toString());
+        System.out.println(users.toArray().toString());
         users.forEach(user -> logger.info(user.getId() + "," + user.getUsername() + "," + user.getAddress()));
     }
+
+    @Test
+    public void getUser() {
+        User user1 = userService.getUser(1);
+        System.out.println(user1.toString());
+//        logger.info(user1.toString());
+
+    }
+
 }

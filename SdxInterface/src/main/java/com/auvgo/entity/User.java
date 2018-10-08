@@ -3,12 +3,13 @@ package com.auvgo.entity;
 import java.io.Serializable;
 import java.util.Date;
 
+
 public class User implements Serializable {
     private Integer id;
 
     private String username;
 
-    private Date birthday;
+    private String birthday;
 
     private String sex;
 
@@ -30,13 +31,20 @@ public class User implements Serializable {
         this.username = username;
     }
 
-    public Date getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
+//    public Date getBirthday() {
+//        return birthday;
+//    }
+
+//    public void setBirthday(Date birthday) {
+//        this.birthday = birthday;
+//    }
 
     public String getSex() {
         return sex;
@@ -55,4 +63,14 @@ public class User implements Serializable {
     }
 
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", birthday=" + birthday +
+                ", sex='" + sex + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }

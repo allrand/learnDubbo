@@ -1,246 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ConsumerApp:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="07398677-b196-4e7b-8c38-ed835dff1601" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/ConsumerApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/ListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring/dubbo-consumer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/config/WebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/ListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/resources/dubbo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/laydate/default/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/all-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/mobile/layer-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/mobile/layim-mobile-open.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/mobile/upload-mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/mobile/zepto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/layui.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/ConsumerApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/src/main/resources/META-INF/spring/dubbo-consumer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/src/main/resources/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/src/main/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/src/main/webapp/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/classes/META-INF/spring/dubbo-consumer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/classes/com/auvgo/consumer/ConsumerApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/classes/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/SdxInterface-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/asm-5.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/aspectjrt-1.8.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/aspectjweaver-1.8.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/cache-api-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/curator-client-2.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/curator-framework-2.12.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-bootstrap-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-cluster-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-common-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-config-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-config-spring-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-container-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-filter-cache-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-filter-validation-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-monitor-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-registry-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-registry-multicast-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-registry-zookeeper-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-remoting-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-remoting-netty4-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-remoting-zookeeper-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-rpc-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-rpc-dubbo-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-rpc-injvm-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-serialization-api-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/dubbo-serialization-hessian2-2.7.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/fastjson-1.2.46.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/fst-2.48-jdk-6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/guava-16.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/hessian-lite-3.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/jackson-core-2.8.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/java-util-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/jline-0.9.94.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/json-io-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/kryo-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/kryo-serializers-0.42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/log4j-1.2.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/minlog-1.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/netty-3.10.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/netty-all-4.0.35.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/objenesis-2.5.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/reflectasm-1.11.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/slf4j-log4j12-1.6.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-aop-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-aspects-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-beans-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-context-support-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-jdbc-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-oxm-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-test-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/spring-webmvc-4.3.8.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/zkclient-0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/lib/zookeeper-3.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/SdxController/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/classes/META-INF/spring/dubbo-consumer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/classes/com/auvgo/consumer/ConsumerApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/classes/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxController/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/ConsumerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/ConsumerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring/dubbo-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring/dubbo-consumer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/layer/default/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/font/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/font/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/font/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/font/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/0.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/0.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/10.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/10.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/11.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/11.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/12.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/12.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/13.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/13.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/14.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/14.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/15.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/15.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/16.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/16.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/17.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/17.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/18.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/18.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/19.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/19.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/20.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/20.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/21.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/21.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/22.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/22.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/23.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/23.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/24.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/24.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/25.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/25.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/26.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/26.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/27.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/27.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/28.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/28.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/29.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/29.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/30.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/30.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/31.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/31.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/32.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/32.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/33.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/33.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/34.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/34.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/35.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/35.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/36.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/36.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/37.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/37.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/38.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/38.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/39.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/39.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/40.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/40.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/41.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/41.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/42.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/42.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/43.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/43.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/44.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/44.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/45.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/45.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/46.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/46.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/47.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/47.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/48.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/48.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/49.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/49.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/50.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/50.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/51.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/51.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/52.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/52.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/53.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/53.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/54.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/54.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/55.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/55.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/56.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/56.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/57.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/57.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/58.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/58.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/59.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/59.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/60.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/60.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/61.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/61.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/62.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/62.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/63.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/63.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/64.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/64.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/65.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/65.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/66.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/66.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/67.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/67.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/68.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/68.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/69.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/69.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/7.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/7.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/70.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/70.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/71.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/71.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/8.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/8.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/images/face/9.gif" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/images/face/9.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxInterface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SdxInterface/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/SdxInterface-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/classes/com/auvgo/api/DemoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/classes/com/auvgo/api/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/classes/com/auvgo/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxInterface/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SdxService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/resources/dubbo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/resources/dubbo.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/main/resources/spring/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsumerApp/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/SdxService-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/META-INF/spring/dubbo-provider.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/application-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/com/auvgo/provider/ProviderApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/com/auvgo/provider/Service/Impl/DemoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/com/auvgo/provider/Service/Impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/com/auvgo/provider/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/com/auvgo/provider/dao/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/com/auvgo/provider/dao/xml/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/dubbo.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/mybatis/mapping/UserDaoMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/mybatis/mybatis.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/classes/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/test-classes/com/auvgo/provider/Service/Impl/UserServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/test-classes/com/auvgo/provider/dao/UserDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SdxService/target/test-classes/com/auvgo/provider/dao/mapper/UserMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/mapper/UserMapperTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/consumer.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/consumer.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -256,22 +199,86 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/learnDubbo$Unnamed8.ic" NAME="Unnamed8 Coverage Results" MODIFIED="1538003602350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tut@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tut@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tut@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tut: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tut@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tut: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="user: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ConsumerApp/pom.xml">
+      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="95">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImplTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java">
+      <file leaf-file-name="application-context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="494">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding>
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="36" selection-start-line="10" selection-end-line="15" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -279,17 +286,17 @@
       <file leaf-file-name="ProviderApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="760">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -297,26 +304,26 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SdxService/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="912">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="380">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/DemoServiceImpl.java">
+      <file leaf-file-name="ListController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/ListController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="353">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -324,11 +331,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dubbo-provider.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml">
+      <file leaf-file-name="LayuiResult.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="152">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -349,36 +356,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-</find>
-      <find>schema</find>
-      <find>spring-context-support</find>
+      <find>fastjson</find>
+      <find>annotation</find>
+      <find>codehaus</find>
+      <find>javax</find>
+      <find>MappingJackson2HttpMessageConverter</find>
+      <find>ViewResolver</find>
+      <find>org.springframework.web.servlet.view.ContentNegotiatingViewResolver</find>
+      <find>MappingJackson2JsonView</find>
+      <find>prompt</find>
+      <find>layui-inline</find>
+      <find>address</find>
+      <find>${pageContext</find>
+      <find>userdata</find>
+      <find>addUser</find>
+      <find>pageContext</find>
+      <find>listData</find>
+      <find>reload</find>
+      <find>date</find>
+      <find>test</find>
+      <find>Spring Application Context</find>
+      <find>spring-servlet.xml</find>
+      <find>dao</find>
+      <find>druid</find>
+      <find>DaoSupport</find>
+      <find>driverClassName</find>
+      <find>spring-tx</find>
       <find>jdbc</find>
+      <find>annotation-driven</find>
       <find>mybatis</find>
-      <find>charlie</find>
-      <find>Base_Column_List</find>
-      <find>defaultFetchSize</find>
-      <find>sqlSessionTemplate</find>
-      <find>mapper</find>
-      <find>Example_Where_Clause</find>
-      <find>Update_By_Example_Where_Clause</find>
-      <find>mvc:annotation-driven</find>
-      <find>spring</find>
-      <find>finalName</find>
-      <find>DispatcherServlet</find>
-      <find>mvcwelcome-file-list</find>
-      <find>AnnotationMethodHandlerAdapter</find>
-      <find>listener</find>
-      <find>spring-boot-maven-plugin</find>
-      <find>servlet</find>
-      <find>userController</find>
-      <find>webmvc</find>
-      <find>scope</find>
-      <find>2.7.0-SNAPSHOT</find>
-      <find>tomcat-maven-plugin</find>
-      <find>dubbo</find>
-      <find>dubbo-config-spring</find>
-      <find>log</find>
-      <find>curator-framework</find>
+      <find>sql</find>
     </findStrings>
     <replaceStrings>
       <replace>${spring.version}</replace>
@@ -390,56 +397,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SvcController/pom.xml" />
-        <option value="$PROJECT_DIR$/SdxInterface/pom.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/dubbo.properties" />
-        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/entity/User.java" />
-        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/User.java" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/mybatis/mybatis.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/mybatis/mapping/UserDaoMapper.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java" />
-        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/DemoService.java" />
-        <option value="$PROJECT_DIR$/SdxController/src/main/resources/META-INF/spring/dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/DemoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/mapper/UserMapperTest.java" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/SdxController/src/main/webapp/userlist.jsp" />
         <option value="$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/userlist.html" />
         <option value="$PROJECT_DIR$/SdxController/src/main/webapp/view/userlist.jsp" />
         <option value="$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/application-context.xml" />
         <option value="$PROJECT_DIR$/SdxController/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/SdxController/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/ConsumerApp.java" />
         <option value="$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/entity/LayuiResult.java" />
         <option value="$PROJECT_DIR$/SdxController/pom.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/UserDaoTest.java" />
         <option value="$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/controller/UserController.java" />
         <option value="$PROJECT_DIR$/SdxController/src/main/resources/application-context.xml" />
         <option value="$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/ConsumerApp.java" />
         <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/hello.jsp" />
-        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp" />
-        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/ListController.java" />
-        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring/dubbo-consumer.xml" />
-        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/UserService.java" />
-        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring/dubbo-consumer.xml" />
+        <option value="$PROJECT_DIR$/SdxInterface/pom.xml" />
         <option value="$PROJECT_DIR$/SdxService/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/ListController.java" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/entity/LayuiResult.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/resources/dubbo.properties" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiResult.java" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/UserService.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/ConsumerApp.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/logs/consumer.log" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/config/WebMvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/ListController.java" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/edit.jsp" />
         <option value="$PROJECT_DIR$/ConsumerApp/pom.xml" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/add.jsp" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp" />
+        <option value="$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/UserDaoTest.java" />
+        <option value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiUser.java" />
+        <option value="$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml" />
+        <option value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java" />
       </list>
     </option>
   </component>
@@ -448,6 +456,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -473,14 +488,25 @@
           <item name="learnDubbo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learnDubbo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="learnDubbo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="tomcat7" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="52" />
     <option name="y" value="23" />
-    <option name="width" value="1630" />
+    <option name="width" value="1628" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -489,12 +515,223 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ConsumerApp" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ConsumerApp" type="616d4139:PackageViewModuleNode" />
+              <item name="com.auvgo.consumer" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="ConsumerApp" type="616d4139:PackageViewModuleNode" />
+              <item name="com.auvgo.consumer" type="1f31426a:PackageElementNode" />
+              <item name="controller" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SdxService" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SdxService" type="616d4139:PackageViewModuleNode" />
+              <item name="com.auvgo.provider" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SdxService" type="616d4139:PackageViewModuleNode" />
+              <item name="com.auvgo.provider" type="1f31426a:PackageElementNode" />
+              <item name="dao" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SdxService" type="616d4139:PackageViewModuleNode" />
+              <item name="com.auvgo.provider" type="1f31426a:PackageElementNode" />
+              <item name="Service.Impl" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/auvgo/provider" type="cbb8eebc:String" user="com/auvgo/provider" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/auvgo/provider" type="cbb8eebc:String" user="com/auvgo/provider" />
+              <item name="dao" type="cbb8eebc:String" user="dao" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/auvgo/provider" type="cbb8eebc:String" user="com/auvgo/provider" />
+              <item name="dao" type="cbb8eebc:String" user="dao" />
+              <item name="mapper" type="cbb8eebc:String" user="mapper" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="SdxService" type="cbb8eebc:String" user="SdxService" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/auvgo/provider" type="cbb8eebc:String" user="com/auvgo/provider" />
+              <item name="dao" type="cbb8eebc:String" user="dao" />
+              <item name="xml" type="cbb8eebc:String" user="xml" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerApp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
@@ -641,40 +878,55 @@
               <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
               <item name="SdxService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
               <item name="SdxService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="SdxService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnDubbo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnDubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="SdxService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="Impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3775" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -692,11 +944,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ConsumerApp/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui" />
+      <recent name="$PROJECT_DIR$/ConsumerApp/src/main/resources" />
       <recent name="$PROJECT_DIR$/SdxController/target" />
       <recent name="$PROJECT_DIR$/SdxController/src/main/webapp" />
-      <recent name="$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml" />
-      <recent name="$PROJECT_DIR$/SdxService/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -717,7 +969,7 @@
     </configuration>
     <configuration name="ConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.auvgo.consumer.ConsumerApp" />
-      <module name="SdxController" />
+      <module name="ConsumerApp" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -740,7 +992,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="UserDaoTest.addUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SdxService" />
       <extension name="coverage">
         <pattern>
@@ -752,7 +1004,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.auvgo.provider.dao" />
       <option name="MAIN_CLASS_NAME" value="com.auvgo.provider.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="addUser" />
+      <option name="METHOD_NAME" value="getUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -763,19 +1015,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserDaoTest.deleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SdxService" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.auvgo.provider.dao.*" />
+          <option name="PATTERN" value="com.auvgo.provider.Service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.auvgo.provider.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.auvgo.provider.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="deleteUser" />
+      <option name="PACKAGE_NAME" value="com.auvgo.provider.Service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.auvgo.provider.Service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -786,19 +1038,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserDaoTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.getUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SdxService" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.auvgo.provider.dao.*" />
+          <option name="PATTERN" value="com.auvgo.provider.Service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.auvgo.provider.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.auvgo.provider.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="updateUser" />
+      <option name="PACKAGE_NAME" value="com.auvgo.provider.Service.Impl" />
+      <option name="MAIN_CLASS_NAME" value="com.auvgo.provider.Service.Impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getUsers" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -846,6 +1098,167 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+    </configuration>
+    <configuration name="Unnamed8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" editBeforeRun="true" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/csmapp/" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ConsumerApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/csmapp" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_learnDubbo_4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62734" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ConsumerApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_learnDubbo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62734" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51054" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
     </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -906,19 +1319,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserDaoTest.addUser" />
-      <item itemvalue="JUnit.UserDaoTest.updateUser" />
-      <item itemvalue="JUnit.UserDaoTest.deleteUser" />
+      <item itemvalue="Tomcat Server.Unnamed8" />
       <item itemvalue="Application.ProviderApp" />
       <item itemvalue="Application.ConsumerApp" />
+      <item itemvalue="JUnit.UserDaoTest.getUser" />
+      <item itemvalue="JUnit.UserServiceImplTest.getUser" />
+      <item itemvalue="JUnit.UserServiceImplTest.getUsers" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProviderApp" />
+        <item itemvalue="JUnit.UserServiceImplTest.getUsers" />
+        <item itemvalue="JUnit.UserServiceImplTest.getUser" />
+        <item itemvalue="JUnit.UserDaoTest.getUser" />
         <item itemvalue="Application.ConsumerApp" />
-        <item itemvalue="JUnit.UserDaoTest.deleteUser" />
-        <item itemvalue="JUnit.UserDaoTest.updateUser" />
-        <item itemvalue="JUnit.UserDaoTest.addUser" />
       </list>
     </recent_temporary>
   </component>
@@ -942,43 +1356,63 @@
       <workItem from="1537869156984" duration="130000" />
       <workItem from="1537869354185" duration="5663000" />
       <workItem from="1537875708141" duration="19000" />
+      <workItem from="1537881758424" duration="2202000" />
+      <workItem from="1537884917161" duration="2495000" />
+      <workItem from="1537889547701" duration="813000" />
+      <workItem from="1537914648945" duration="1789000" />
+      <workItem from="1537917841063" duration="2277000" />
+      <workItem from="1537924733235" duration="21522000" />
+      <workItem from="1537954180576" duration="8902000" />
+      <workItem from="1537973140666" duration="558000" />
+      <workItem from="1537977011499" duration="928000" />
+      <workItem from="1538002546337" duration="2883000" />
+      <workItem from="1538011365777" duration="8594000" />
+      <workItem from="1538027656239" duration="259000" />
+      <workItem from="1538039890320" duration="210000" />
+      <workItem from="1538040490422" duration="2337000" />
+      <workItem from="1538104037734" duration="20275000" />
+      <workItem from="1538127201216" duration="4530000" />
+      <workItem from="1538895534832" duration="15000" />
+      <workItem from="1538913236002" duration="8123000" />
+      <workItem from="1538952623600" duration="2000" />
+      <workItem from="1538965722380" duration="346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserDaoTest_addUser - 2018.09.23 at 13h 21m 59s.xml">
-      <configuration name="UserDaoTest.addUser" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_getUser - 2018.09.26 at 18h 09m 58s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 25m 25s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2018.09.26 at 18h 11m 39s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 47m 09s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2018.09.26 at 18h 12m 34s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 47m 45s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_getUser - 2018.09.26 at 18h 33m 05s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 50m 43s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserDaoTest_getUser - 2018.09.26 at 18h 33m 25s.xml">
+      <configuration name="UserDaoTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_addUser - 2018.09.23 at 13h 51m 14s.xml">
-      <configuration name="UserDaoTest.addUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2018.09.26 at 18h 33m 43s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 51m 31s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUser - 2018.09.26 at 18h 34m 07s.xml">
+      <configuration name="UserServiceImplTest.getUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 52m 56s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUsers - 2018.09.26 at 18h 34m 17s.xml">
+      <configuration name="UserServiceImplTest.getUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_updateUser - 2018.09.23 at 13h 54m 14s.xml">
-      <configuration name="UserDaoTest.updateUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUsers - 2018.09.26 at 18h 37m 24s.xml">
+      <configuration name="UserServiceImplTest.getUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserDaoTest_deleteUser - 2018.09.23 at 13h 56m 57s.xml">
-      <configuration name="UserDaoTest.deleteUser" configurationId="JUnit" />
+    <history-entry file="UserServiceImplTest_getUsers - 2018.09.26 at 18h 38m 03s.xml">
+      <configuration name="UserServiceImplTest.getUsers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50385000" />
+    <option name="totallyTimeSpent" value="139445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -990,89 +1424,51 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="23" width="1630" height="1027" extended-state="0" />
+    <frame x="52" y="23" width="1628" height="1027" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="5" visible="true" weight="0.19521411" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="18" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32903227" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.1923077" />
+      <window_info anchor="bottom" id="Database Changes" order="17" show_stripe_button="false" />
       <window_info id="Capture Tool" order="10" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32903227" />
-      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="bottom" id="Statistic" order="12" weight="0.32903227" />
+      <window_info anchor="right" id="Database" order="9" weight="0.2315922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32903227" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32903227" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33548388" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32903227" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4591398" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20717885" />
-      <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32903227" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.38387096" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32903227" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4591398" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4950298" visible="true" weight="0.18978563" />
+      <window_info id="Web" order="9" sideWeight="0.5049702" side_tool="true" weight="0.22250158" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info id="Project Explorer" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3299748" />
       <window_info id="Job Explorer" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Project Explorer" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="bottom" id="Database Console" order="1" weight="0.32903227" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info id="DB Browser" order="8" />
-      <window_info anchor="bottom" id="Console" order="11" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Console" order="13" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32903227" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="2" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="DB Execution Console" order="8" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.58709675" />
-      <window_info anchor="bottom" id="Spring" order="13" weight="0.32903227" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="DB Browser" order="8" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Project Explorer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4591398" />
-      <window_info id="Capture Tool" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32903227" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32903227" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info id="Job Explorer" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.19521411" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20465995" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32903227" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="bottom" id="Console" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1082,35 +1478,25 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml">
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/add.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="209">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties">
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/env/.m2/repos/org/mybatis/mybatis/3.2.1/mybatis-3.2.1-sources.jar!/org/apache/ibatis/session/defaults/DefaultSqlSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="195" column="40" selection-start-line="195" selection-start-column="40" selection-end-line="195" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="306">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -1121,244 +1507,328 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/DemoService.java">
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/mybatis/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="247">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/env/.m2/repos/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/binding/MapperProxy.class">
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="227">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java">
+    <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/mapper/UserMapperTest.java" />
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        <state relative-caret-position="228">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/ConsumerApp.java" />
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/dubbo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/layui/dist/layui.js" />
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/SpringRepeat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/InvokeMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/env/.m2/repos/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e23e6b4a-fdd5-4504-ab7b-4bbf48d54553/schema/tut/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/ConsumerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/consumer.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="58" column="114" selection-start-line="58" selection-start-column="103" selection-end-line="58" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="72" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/src/lay/modules/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179645">
+          <caret line="9455" column="4" selection-start-line="9455" selection-start-column="4" selection-end-line="9455" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/UserDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="87" column="39" selection-start-line="87" selection-start-column="39" selection-end-line="87" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/config/WebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/xml/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" column="44" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/webapp/userlist.jsp" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/userlist.html" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/NoPage.html" />
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="68" column="39" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/mapper/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/dao/UserDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/webapp/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/webapp/view/userlist.jsp" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/entity/LayuiResult.java" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/resources/log4j.properties" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/resources/spring-mvc.xml" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/resources/application-context.xml" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/webapp/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/controller/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/hello.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/ConsumerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/views/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxController/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/resources/META-INF/spring/dubbo-consumer.xml" />
-    <entry file="file://$PROJECT_DIR$/SdxController/src/main/java/com/auvgo/consumer/ConsumerApp.java" />
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/api/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring/dubbo-consumer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/controller/ListController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxInterface/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/test/java/com/auvgo/provider/Service/Impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/Service/Impl/DemoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/META-INF/spring/dubbo-provider.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/env/.m2/repos/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/registry/zookeeper/ZookeeperRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/env/.m2/repos/com/alibaba/dubbo/2.6.2/dubbo-2.6.2.jar!/com/alibaba/dubbo/remoting/zookeeper/curator/CuratorZookeeperTransporter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/env/.m2/repos/com/alibaba/dubbo/2.6.2/dubbo-2.6.2-sources.jar!/com/alibaba/dubbo/remoting/zookeeper/curator/CuratorZookeeperTransporter.java">
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/entity/LayuiResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="380">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="36" selection-start-line="10" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/webapp/WEB-INF/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SdxService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="912">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConsumerApp/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/resources/application-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="494">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxInterface/src/main/java/com/auvgo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SdxService/src/main/java/com/auvgo/provider/ProviderApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsumerApp/src/main/java/com/auvgo/consumer/controller/ListController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,7 +1838,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SdxController:war</last-edited>
+          <last-edited>learnDubbo:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1417,11 +1887,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|ConsumerApp</last-edited>
+          <last-edited>learnDubbo</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3775" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1441,7 +1912,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.101tec:zkclient:0.2</last-edited>
+          <last-edited>Maven: com.101tec:zkclient:0.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

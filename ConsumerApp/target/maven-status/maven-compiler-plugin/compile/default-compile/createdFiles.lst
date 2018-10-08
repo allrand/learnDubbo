@@ -1,0 +1,6 @@
+com/auvgo/consumer/entity/LayuiResult.class
+com/auvgo/consumer/controller/ListController.class
+com/auvgo/consumer/controller/HelloController.class
+com/auvgo/consumer/config/WebMvcConfigurer.class
+com/auvgo/consumer/entity/LayuiUser.class
+com/auvgo/consumer/ConsumerApp.class

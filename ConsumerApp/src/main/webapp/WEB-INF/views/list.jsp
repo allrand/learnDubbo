@@ -6,15 +6,14 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <title>layui list</title>
-    <%--<link rel="stylesheet" href="//res.layui.com/layui/dist/css/layui.css?t=1535898708529" media="all">--%>
-    <%--<link rel="stylesheet" href="../../layui/css/layui.css">--%>
-    <link rel="stylesheet" href="../layui/css/layui.css">
+    <title> </title>
+    <link rel="stylesheet" href="../../src/css/layui.css" media="all">
     <style>
         body{margin: 10px;}
         .demo-carousel{height: 200px; line-height: 200px; text-align: center;}
@@ -22,104 +21,49 @@
 </head>
 <body>
 
+<div class="demoTable">
+    搜索ID：
+    <div class="layui-inline">
+        <input class="layui-input" name="id" id="demoReload" autocomplete="off">
+    </div>
+    <button id="searchBtn" class="layui-btn" data-type="reload">搜索</button>
+    <button id="addBtn" class="layui-btn" data-type="reload">新增</button>
+</div>
+
 <table class="layui-hide" id="demo" lay-filter="test"></table>
 
 <script type="text/html" id="barDemo">
-    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="detail">查看</a>
     <a class="layui-btn layui-btn-xs" lay-event="edit">编辑</a>
     <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
 </script>
 
-<div class="layui-tab layui-tab-brief" lay-filter="demo">
-    <ul class="layui-tab-title">
-        <li class="layui-this">演示说明</li>
-        <li>日期</li>
-        <li>分页</li>
-        <li>上传</li>
-        <li>滑块</li>
-    </ul>
-    <div class="layui-tab-content">
-        <div class="layui-tab-item layui-show">
-
-            <div class="layui-carousel" id="test1">
-                <div carousel-item>
-                    <div><p class="layui-bg-green demo-carousel">在这里，你将以最直观的形式体验 layui！</p></div>
-                    <div><p class="layui-bg-red demo-carousel">在编辑器中可以执行 layui 相关的一切代码</p></div>
-                    <div><p class="layui-bg-blue demo-carousel">你也可以点击左侧导航针对性地试验我们提供的示例</p></div>
-                    <div><p class="layui-bg-orange demo-carousel">如果最左侧的导航的高度超出了你的屏幕</p></div>
-                    <div><p class="layui-bg-cyan demo-carousel">你可以将鼠标移入导航区域，然后滑动鼠标滚轮即可</p></div>
-                </div>
-            </div>
-        </div>
-        <div class="layui-tab-item">
-            <div id="laydateDemo"></div>
-        </div>
-        <div class="layui-tab-item">
-            <div id="pageDemo"></div>
-        </div>
-        <div class="layui-tab-item">
-            <div class="layui-upload-drag" id="uploadDemo">
-                <i class="layui-icon"></i>
-                <p>点击上传，或将文件拖拽到此处</p>
-            </div>
-        </div>
-        <div class="layui-tab-item">
-            <div id="sliderDemo" style="margin: 50px 20px;"></div>
-        </div>
-    </div>
-</div>
-
-<blockquote class="layui-elem-quote layui-quote-nm layui-hide" id="footer">layui {{ layui.v }} 提供强力驱动</blockquote>
-
-
-<script src="//res.layui.com/layui/dist/layui.js?t=1535898708529"></script>
+<script src="../../src/layui.js"></script>
 <script>
-    layui.config({
-        version: '1535898708529' //为了更新 js 缓存，可忽略
-    });
-
-    layui.use(['laydate', 'laypage', 'layer', 'table', 'carousel', 'upload', 'element', 'slider'], function(){
-        var laydate = layui.laydate //日期
-            ,laypage = layui.laypage //分页
-            ,layer = layui.layer //弹层
-            ,table = layui.table //表格
-            ,carousel = layui.carousel //轮播
-            ,upload = layui.upload //上传
-            ,element = layui.element //元素操作
-            ,slider = layui.slider //滑块
-
-        //向世界问个好
-        layer.msg('Hello World');
-
-        //监听Tab切换
-        element.on('tab(demo)', function(data){
-            layer.tips('切换了 '+ data.index +'：'+ this.innerHTML, this, {
-                tips: 1
-            });
-        });
+    layui.use(['laydate', 'laypage', 'layer', 'table'], function(){
+        var laydate = layui.laydate     //日期
+            ,laypage = layui.laypage    //分页
+            ,layer = layui.layer        //弹层
+            ,table = layui.table        //表格
 
         //执行一个 table 实例
         table.render({
             elem: '#demo'
             ,height: 420
-            ,url: '/demo/table/user/' //数据接口
+            ,url: '/user/listdata' //数据接口
             ,title: '用户表'
             ,page: true //开启分页
             ,toolbar: 'default' //开启工具栏，此处显示默认图标，可以自定义模板，详见文档
             ,totalRow: true //开启合计行
             ,cols: [[ //表头
                 {type: 'checkbox', fixed: 'left'}
-                ,{field: 'id', title: 'ID', width:80, sort: true, fixed: 'left', totalRowText: '合计：'}
-                ,{field: 'username', title: '用户名', width:80}
-                ,{field: 'experience', title: '积分', width: 80, sort: true, totalRow: true}
-                ,{field: 'sex', title: '性别', width:80, sort: true}
-                ,{field: 'score', title: '评分', width: 80, sort: true, totalRow: true}
-                ,{field: 'city', title: '城市', width:150}
-                ,{field: 'sign', title: '签名', width: 200}
-                ,{field: 'classify', title: '职业', width: 100}
-                ,{field: 'wealth', title: '财富', width: 135, sort: true, totalRow: true}
-                ,{fixed: 'right', width: 165, align:'center', toolbar: '#barDemo'}
-            ]]
+                ,{field:'id', title:'ID', width:80, fixed: 'left', unresize: true, sort: true}
+                ,{field:'username', title:'用户名', width:120, edit: 'text'}
+                ,{field:'sex', title:'性别', width:80, edit: 'text', sort: true}
+                ,{field: 'birthday', title: '生日', width: 120}
+                ,{field: 'address', title: '地址', width:160}
+                ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:150}
+            ]],
+            id: "listData"
         });
 
         //监听头工具栏事件
@@ -159,20 +103,47 @@
                 layer.confirm('真的删除行么', function(index){
                     obj.del(); //删除对应行（tr）的DOM结构
                     layer.close(index);
-                    //向服务端发送删除指令
+                    //TODO 向服务端发送删除指令
+                    table.reload('listData', {
+                        url: '${pageContext.request.contextPath}/user/deluser'
+                        ,where: {
+                            id: data.id
+                        }
+                    });
+
                 });
             } else if(layEvent === 'edit'){
                 layer.msg('编辑操作');
-            }
-        });
+                console.log(data);
+                ${session.setAttribute("user", data)}
 
-        //执行一个轮播实例
-        carousel.render({
-            elem: '#test1'
-            ,width: '100%' //设置容器宽度
-            ,height: 200
-            ,arrow: 'none' //不显示箭头
-            ,anim: 'fade' //切换动画方式
+                // layer.open({
+                //     type: 2,
+                //     area: ['800px', '550px'],
+                //     content: '/user/edit'
+                // });
+                layer.prompt({
+                    formType: 2
+                    ,value: data.username
+                }, function(value, index){
+                    obj.update({
+                        username: encodeURI(value)
+                    });
+                    layer.close(index);
+                    //TODO 向服务端发送更新指令
+                    table.reload('listData', {
+                        url: '${pageContext.request.contextPath}/user/modify'
+                        ,where: {
+                            id: data.id,
+                            username: encodeURI(value),
+                            sex: data.sex,
+                            address: encodeURI(data.address)
+                        }
+                    }, function (res) {
+                        alert(res.msg)
+                    });
+                });
+            }
         });
 
         //将日期直接嵌套在指定容器中
@@ -198,7 +169,7 @@
         //分页
         laypage.render({
             elem: 'pageDemo' //分页容器的id
-            ,count: 100 //总页数
+            ,count: 10 //总页数
             ,skin: '#1E9FFF' //自定义选中色值
             //,skip: true //开启跳页
             ,jump: function(obj, first){
@@ -207,25 +178,30 @@
                 }
             }
         });
+        var $ = layui.$;
 
-        //上传
-        upload.render({
-            elem: '#uploadDemo'
-            ,url: '' //上传接口
-            ,done: function(res){
-                console.log(res)
-            }
-        });
+        $('#searchBtn').on('click', function () {
+            var demoReload = $('#demoReload');
 
-        slider.render({
-            elem: '#sliderDemo'
-            ,input: true //输入框
-        });
+            //执行重载
+            table.reload('listData', {
+                page: {
+                    curr: 1 //重新从第 1 页开始
+                }
+                ,where: {
+                    id:demoReload.val()
+                }
+            });
+        })
 
-        //底部信息
-        var footerTpl = lay('#footer')[0].innerHTML;
-        lay('#footer').html(layui.laytpl(footerTpl).render({}))
-            .removeClass('layui-hide');
+        $('#addBtn').on('click', function () {
+            layer.open({
+                type: 2,
+                area: ['800px', '550px'],
+                content: '/user/add' //这里content是一个URL，如果你不想让iframe出现滚动条，你还可以content: ['http://sentsin.com', 'no']
+            });
+        })
+
     });
 </script>
 </body>
